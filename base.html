@@ -170,10 +170,10 @@
                         <a href="#" id="__like" title="Yes"><i class="fa fa-thumbs-up like" aria-hidden="true"></i></a>
                       </div>
                       <div class="dislike grow">
-                        <a href="#" id="like_dislike" onclick="make_appear('feedback_id')" title="No"><i
+                        <a href="#" id="like_dislike" title="No"><i
                             class="fa fa-thumbs-down dislike" aria-hidden="true"></i></a>
                       </div>
-                      <div id="feedback_id" class="feedback">
+                      <div id="feedback_id" class="feedback" style="display: block;">
                         <a href="{{ config.issues_uri }}" data-label="{{ config.labels_uri[0] }}"
                           data-assign="{{config.assignees_uri[0]}}" id="citrix_feedback11" target="_blank"
                           rel="noopener noreferrer" style="margin-bottom:20px;" onclick="feedbackloader(this.id);"
